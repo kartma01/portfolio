@@ -1,0 +1,140 @@
+/*Parte de cima*/
+.header{
+    background: #dedede;
+}
+
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+
+.col1{
+    width: 300px;
+}
+
+.col2{
+    width: 620px;
+}
+
+h1.logo{
+    font-weight: 300;
+    color:  #1f3c58;
+    letter-spacing: -2;
+}
+
+.menu{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 0%;
+}
+
+ul.inline li, ol.inline li{
+    display: inline;
+    margin-right:15px;
+}
+
+.pa {
+    padding-top: 30px;
+}
+
+a:link, a:active, a:visited{
+    color: #121d35;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #121d35;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+  /*PARTE DO ESCUDO CSS*/
+.pass{
+  padding-top: 100px;
+}
+.circle {
+    border-radius: 50%; /*vai deixa as bordas redondas, indepedente de sua largura/altura*/
+    display: flex;
+    align-items: center; /*estamos centralizando tanto na vetical como na horizontal */
+    justify-content: center;
+
+    border: 1px solid #3c404f;
+
+    background: linear-gradient(
+        to right,
+        var(--color1),
+        var(--color2),
+        var(--color1) /*o linear-gradient*/
+    );
+}
+
+#circle1{
+    margin: auto;
+    width: 256px;
+    height: 256px;
+
+    --color1: red;
+    --color2: #c10101;
+}
+
+#circle2{
+    width: 206px;
+    height: 206px;
+    --color1: white;
+    --color2: white;
+}
+
+#circle3{
+    width: 156px;
+    height: 156px;
+    --color1: red;
+    --color2: #c10101;
+}
+
+#circle4 {
+    width: 106px;
+    height: 106px;
+    --color1: blue;
+    --color2: #02264d;
+}
+
+#star {
+    /*a estrela é formada por 3 triangulos*/
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 30px solid white;
+    transform: rotate(180deg);
+}
+
+#star:before{
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(70deg);
+    content: "";
+    left: -50px;
+}
+
+#star:after {
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(-70deg);
+    content: "";
+    left: -48.8px;
+    top: 0.1px
+}
