@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF=8" />
+	<title>Super Trunfo Atualizado </title>
+	<link rel="stylesheet" href="./supertrunfo.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet" />
+</head>			
+<body>
+    <div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col1">
+					<h1 class="logo">POTFÓLIO</h1>
+				</div>
+				<div class="coluna col2">
+					<nav>
+						<div>
+							<ul class ="menu inline sem-marcador pa">	
+							<li><a href="index.html">home</a></li>							
+							<li><a href="projetos.html">Projetos</a></li>
+						</ul>
+						</div>
+					</nav>
+                </div>
+				</div>
+			</header>
+		</div>	
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Super Trunfo</h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"><img
+                            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <div id="resultado"></div>
+        </form>
+    </div>
+    <script src="./supertrunfo.js"></script>
+</body>
+</html>
