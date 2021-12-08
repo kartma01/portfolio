@@ -1,0 +1,117 @@
+/*PARTE DE CIMA*/
+.linha{
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 5px 0;
+}
+
+.coluna{
+  padding: 0 10px;
+  float: left;
+}
+
+.col1{
+  width: 300px;
+}
+
+.col2{
+  width: 620px;
+}
+
+h1.logo{
+  font-weight: 300;
+  color:  white;
+  letter-spacing: -2;
+}
+
+.menu{
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 0%;
+}
+
+ul.inline li, ol.inline li{
+  display: inline;
+  margin-right:15px;
+}
+
+.pa {
+  padding-top: 30px;
+}
+
+a:link, a:active, a:visited{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  background-color: #121d35;
+  text-decoration: none;
+}
+
+.menu li a {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+/*Parte do projeto*/  
+body {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png");
+    background-color: black;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }

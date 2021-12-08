@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF=8" />
+	<title>CONVERSOR DE MOEDA</title>
+	<link rel="stylesheet" href=",/moeda.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet" />
+</head>		
+<body>
+  <div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col1">
+					<h1 class="logo">POTFÓLIO</h1>
+				</div>
+				<div class="coluna col2">
+					<nav>
+						<div>
+							<ul class ="menu inline sem-marcador pa">	
+							<li><a href="index.html">home</a></li>							
+							<li><a href="projetos.html">Projetos</a></li>
+						</ul>
+						</div>
+					</nav>
+                </div>
+				</div>
+			</header>
+		</div>	
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores em real R$ e em dolar U$<br>Valor do dolar no momento R$5,25
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()">Converter Em Real</button>
+        <button type="submit" onclick="Converterr()">Converter Em Dolar</button>
+        <div id="valorConvertido"></div>
+    </div>
+        <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" 
+        alt="" class="alura-logo">
+    <script src="./moeda.js"></script>    
+</body>
+</html>
