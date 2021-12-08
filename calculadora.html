@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF=8" />
+	<title>Calculadora de média</title>
+	<link rel="stylesheet" href="./calculadora.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col1">
+					<h1 class="logo">POTFÓLIO</h1>
+				</div>
+				<div class="coluna col2">
+					<nav>
+						<div>
+							<ul class ="menu inline sem-marcador pa">	
+							<li><a href="index.html">home</a></li>							
+							<li><a href="projetos.html">Projetos</a></li>
+						</ul>
+						</div>
+					</nav>
+                </div>
+				</div>
+			</header>
+		</div>	
+    <div class="container">
+        <h1 class="page-title">
+        Calculadora de média</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <p class="page-subtitle">
+        Digite a Nota de cada prova!
+        </p>
+        <h3>PRIMERIA NOTA:</h3>
+        <input type="number" id="n1" size="2" /><br>
+        <h3>SEGUNDA NOTA:</h3>
+        <input type="number" id="n2" size="2" /><br>
+        <h3>TERCEIRA NOTA:</h3>
+        <input type="number" id="n3" size="2" /><br>
+        <button type="submit" onclick="Converter()">Média das notas</button>
+        <h2 id="total"></h2> 
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      <script src="./calculadora.js"></script>
+</body>
+</html>
