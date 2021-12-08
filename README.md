@@ -1,2 +1,2 @@
-# potfolio
-Esse é meu segundo potfolio
+# portfólio
+Esse é meu segundo portfólio
