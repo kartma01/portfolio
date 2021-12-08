@@ -1,0 +1,227 @@
+    body{
+        font-family: 'Roboto', sans-serif;
+         color:rgb(0, 0, 0);
+    }
+    a:link, a:active, a:visited{
+        color: #121d35;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .esquerdo{
+        width: 960px;
+        margin: 0 auto;
+        padding: 5px 0;
+    }
+    
+    .linha{
+        width: 960px;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 5px 0;
+    }
+
+    .coluna{
+        padding: 0 10px;
+        float: left;
+    }
+    .col1{
+        width: 60px
+    }
+    .col2{
+        width: 140px;
+    }
+    .col3{
+        width: 220px;
+    }
+    .col4{
+        width: 300px;
+    }
+    .col5{
+        width: 380px;
+    }
+    .col6{
+        width: 460px;
+    }
+    .col7{
+        width: 540px;
+    }
+    .col8{
+        width: 620px;
+    }
+    .col9{
+        width: 700px;
+    }
+    .col10{
+        width: 780px;
+    }
+    .col11{
+        width: 860px;
+    }
+    .col12{
+        width: 940px;
+    }
+
+    /* estilos reutílizáveis */
+    
+    .sem-padding{
+        padding: 0 ;
+    }
+    .sem-margin{
+        margin: 0 ;
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-weight: 500;
+        margin: 15px 0 10px 0;
+    }
+    ul li, ol li{
+        margin-bottom: 5px;
+    }
+    ul.inline li, ol.inline li{
+        display: inline;
+        margin-right:15px;
+    }
+    ul.inline li:last-child, ol.inline li:last-child{
+        margin-right: 0px;
+    }
+    ul.sem-marcador, ol.sem-marcador{
+        list-style: none;
+    }
+
+        /* layout do site */
+
+   .cabecalho{
+       display: flex;
+        justify-content: space-between;
+      }
+              
+  .perfil{
+        display: flex;
+      }
+          
+    .perfil-foto {
+       max-width: 460px;
+       border-radius: 100px;
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+      }
+
+     .titulo{
+         margin-left: 16px;
+          }
+          
+    .titulo h1{
+        font-weight: 700;
+         font-size: 36px;
+        }
+          
+    .titulo h4{
+         font-weight: 400;
+        font-size: 24px;
+          }
+    .header{
+        background: #dedede;
+    }
+    h1.logo{
+        font-weight: 300;
+        color:  #1f3c58;
+        letter-spacing: -2;
+    }
+    .menu{
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: 0%;
+    }
+    .menu li a{
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .menu li a:hover{
+        text-decoration: none;
+        background: #1f3c58;
+        color: #ebebeb;
+    }
+    .contato label{
+        display: block;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .contato input, .contato textarea{
+        display: block;
+        margin-bottom: 15px;
+        padding: 5px 2%;
+        width: 96%;
+    }
+    .contato textarea{
+        height: 150px;
+    }
+    .contato input.botao{
+        width: auto;
+    }
+    
+    /*curriculo*/
+
+    .curriculo {
+        max-height: 70%;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        display: flex;
+        flex-direction: column;
+        padding: 8px 32px;
+        background: #dedede;
+        border-radius: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+      }
+      
+
+
+      /*TEMA DARK*/
+    
+      .tema button {
+        align-self: flex-end;
+        font-size: 10px;
+        padding: 8px 16px;
+        background: #ECF4FF;
+        box-sizing: border-box;
+        border-radius: 100px;
+        border: 2px solid #0E1D2F;
+        margin-left: 50px;
+      }    
+
+      .dark {
+        background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+      }
+      
+      .dark .header {
+        background: #333439;
+        color: #F7F7F7;
+      }
+      
+      .dark .inicio{
+        color: #fffafa; 
+      }
+      
+      .dark .tema button{
+       background: #0E1D2F;
+        color: #FFFFFF;
+        border: 2px solid #F7F7F7;
+      }
+    
+      .dark .logo{
+        color: white;
+      }
+
+      .dark .escuro{
+        color: white;
+      }
+    
+     /*IMAGEM DO PROJETO*/
+    
+    img{
+        width: 200px;
+        margin: 10px;
+        height: 200px; 
+        border-radius: 20px;   
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    }
